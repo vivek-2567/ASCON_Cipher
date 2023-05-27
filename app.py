@@ -164,15 +164,6 @@ def str_to_bin(plain_text):
 global hex_dict
 hex_dict = {'0' : '0000','1' : '0001','2':'0010','3':'0011','4':'0100','5':'0101','6':'0110','7':'0111','8':'1000','9':'1001','a':'1010','A':'1010','b':'1011','B':'1011','c':'1100','C':'1100','d':'1101','D':'1101','e':'1110','E':'1110','f':'1111','F':'1111'}
 
-K_hex = 'a0705375b8d44e5f036f7c835003ed22'
-N_hex = '3ca6d517828f5194cd4155147edc8100'
-
-PT = '6173636f6e'
-
-AT = '4153434f4e'
-
-CT = '94e50e6a35380eec'
-
 if __name__ == "__main__":
     st.set_page_config(page_title="ASCON Implementation", layout="wide")
     a,b,c = st.columns(3)
